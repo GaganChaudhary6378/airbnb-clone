@@ -29,13 +29,55 @@ nav {
   padding-left: 20px;
   margin-bottom: 16px;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 50px;
   line-height: 110%;
 }
 .hero-text {
-  padding-left: 20px;
-  width: 320px;
+  padding-left: 23px;
+  width: 380px;
   margin-top: 0;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 110%;
+  margin-bottom: 40px;
+}
+/* Cards styling */
+
+.cards-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 6.5rem;
+  overflow-x: auto;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 15em;
+  /* padding: 1.25em 2.25em; */
+}
+
+.card-image {
+  border-radius: 9px;
+  margin-bottom: 1.25em;
+  max-height: 300px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.card-title {
+  line-height: 1.2;
+  overflow: hidden;
+}
+
+.card-star {
+  display: inline-block;
+  max-width: 1em;
+}
+.card-price {
+  margin-top: auto;
 }
