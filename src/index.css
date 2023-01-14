@@ -81,3 +81,12 @@ nav {
 .card-price {
   margin-top: auto;
 }
+.card-badge {
+  position: absolute;
+  top: 0.375em;
+  left: 0.375em;
+  background-color: white;
+  padding: 0.3125em 0.4375em;
+  border-radius: 9px;
+  font-weight: bold;
+}
