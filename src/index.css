@@ -1,21 +1,41 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
+  font-family: "Poppins";
 }
-nav{
+nav {
   display: flex;
   align-content: center;
   padding: 20px 36px;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
-
 }
-.logo-el{
+.logo-el {
   max-width: 100px;
 }
-.hero-el{
+.hero-el {
+  padding: 20px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+.hero-pic {
+  width: 1000px;
+  align-self: center;
+}
+.hero-title {
+  letter-spacing:0.7rem;
+  padding-left: 20px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+}
+.hero-text {
+  padding-left: 20px;
+  width: 320px;
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 110%;
 }
